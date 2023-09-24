@@ -15,9 +15,9 @@ export const NavMernu = () => {
         <li>
           <Link href={"/users"}>Users</Link>
         </li>
-        <li>
+        {/* <li>
           <Link href={"/blog"}>Blog</Link>
-        </li>
+        </li> */}
         <li>
           <SignInButton />
           <SignOutButton />
